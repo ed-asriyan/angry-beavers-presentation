@@ -28,14 +28,6 @@
     </div>
 </section>
 <section class="slide">
-    <img src="cards/pure-cropped/3_7.jpg" class="cover">
-    <img src="pictures/logo.png" style="margin-bottom: 50px;" width="815">
-    <h3 style="margin-top: -30px" align="center">
-        <label style="font-size: xx-large">Heroku:</label>
-        <a href="https://jokinghazard.herokuapp.com" style="font-size: xx-large; margin-left: 50px">https://jokinghazard.herokuapp.com</a>
-    </h3>
-</section>
-<section class="slide">
     <h2>Правила</h2>
     <ol class="double" style="font-size: small">
         <li>Каждый игрок получает по 7 карточек. Не прибегая к насилию, рандомно
@@ -44,12 +36,13 @@
         </li>
         <li>Первую карту выбирает судья. Это изначальная панель комикса.</li>
         <img src="cards/pure-cropped/1_1.jpg" width="150" style="margin-top: -8px">
-        <li>Остальные игроки кладут свои карты лицом вниз, создавая следующую панель (панчлайн) комикса.Судья  выбирает более понравившийся вариант. Выигравший
+        <li>Остальные игроки кладут свои карты лицом вниз, создавая следующую панель (панчлайн) комикса.Судья выбирает
+            более понравившийся вариант. Выигравший
             игрок
             получает
             одно очко.
         </li>
-        <li>Каждый игрок получает по одной карте (их всегда должно быть 7).  Следующий реальный игрок
+        <li>Каждый игрок получает по одной карте (их всегда должно быть 7). Следующий реальный игрок
             становится
             судьёй.
         </li>
@@ -57,6 +50,45 @@
             Игра заканчивается когда все реальные игроки побывали судьями
         </li>
     </ol>
+</section>
+<section class="slide">
+    <img src="cards/pure-cropped/3_7.jpg" class="cover">
+    <img src="pictures/logo.png" style="margin-bottom: 50px;" width="815">
+    <h3 style="margin-top: -30px" align="center">
+        <label style="font-size: xx-large">Heroku:</label>
+        <a href="https://jokinghazard.herokuapp.com" style="font-size: xx-large; margin-left: 50px">https://jokinghazard.herokuapp.com</a>
+    </h3>
+</section>
+<section class="slide">
+    <script>
+        const onClick = function (card) {
+            var c = document.getElementById('lol');
+            card.parentNode.hidden = true;
+            card.style.marginLeft = '5px';
+            c.appendChild(card);
+        };
+    </script>
+    <div id="lol">
+        <img src="cards/border-cropped/1_1.jpg" style="margin-right: -5px" width="170">
+    </div>
+    <div style="margin-top: 10px; margin-bottom: 500px">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+    </div>
+    <div style="margin-top: 10px; margin-bottom: 500px">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+    </div>
+    <div style="margin-top: 10px; margin-bottom: 500px">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+        <img src="cards/border-cropped/1_1.jpg" width="170" onclick="onClick(this)">
+    </div>
 </section>
 <section class="slide">
     <img src="cards/border-cropped/7_3.jpg" alt="" class="place">
