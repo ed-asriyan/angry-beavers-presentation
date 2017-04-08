@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "shower-red-material",
+        "scope": null,
+        "escapedName": "shower-red-material",
+        "name": "shower-red-material",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/lieroz"
+    ]
+  ],
+  "_from": "shower-red-material@latest",
+  "_id": "shower-red-material@1.0.1",
+  "_inCache": true,
+  "_location": "/shower-red-material",
+  "_nodeVersion": "4.4.5",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/shower-red-material-1.0.1.tgz_1466462948783_0.6262170448899269"
+  },
+  "_npmUser": {
+    "name": "erazerbrecht",
+    "email": "erazerbrecht@gmail.com"
+  },
+  "_npmVersion": "3.9.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "shower-red-material",
+    "scope": null,
+    "escapedName": "shower-red-material",
+    "name": "shower-red-material",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/shower-red-material/-/shower-red-material-1.0.1.tgz",
+  "_shasum": "267ebec00f963f0abfb8a11343c04b31812eb410",
+  "_shrinkwrap": null,
+  "_spec": "shower-red-material",
+  "_where": "/home/lieroz",
+  "author": {
+    "name": "Brecht Carlier",
+    "url": "https://erazerbrecht.wordpress.com/"
+  },
+  "bugs": {
+    "url": "http://github.com/shower/material/issues"
+  },
+  "dependencies": {},
+  "description": "Red Material theme for Shower HTML presentation engine",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-header": "^1.8.3",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.2",
+    "postcss-csso": "^1.1.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "267ebec00f963f0abfb8a11343c04b31812eb410",
+    "tarball": "https://registry.npmjs.org/shower-red-material/-/shower-red-material-1.0.1.tgz"
+  },
+  "files": [
+    "docs/**",
+    "fonts/**",
+    "images/**",
+    "pictures/**",
+    "styles/*.css",
+    "index.html",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "gitHead": "737846c972dfb89bc9dbb6c05c56aa293a811c52",
+  "homepage": "https://github.com/ErazerBrecht/material-red",
+  "keywords": [
+    "shower",
+    "presentation",
+    "material",
+    "theme"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "erazerbrecht",
+      "email": "erazerbrecht@gmail.com"
+    }
+  ],
+  "name": "shower-red-material",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ErazerBrecht/material-red.git"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "prepublish": "npm run styles",
+    "styles": "gulp styles"
+  },
+  "version": "1.0.1"
+}

@@ -1,0 +1,108 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "shower-mango",
+        "scope": null,
+        "escapedName": "shower-mango",
+        "name": "shower-mango",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/lieroz"
+    ]
+  ],
+  "_from": "shower-mango@latest",
+  "_id": "shower-mango@3.1.0",
+  "_inCache": true,
+  "_location": "/shower-mango",
+  "_nodeVersion": "4.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/shower-mango-3.1.0.tgz_1464874819754_0.06392840575426817"
+  },
+  "_npmUser": {
+    "name": "gaborcsardi",
+    "email": "csardi.gabor@gmail.com"
+  },
+  "_npmVersion": "2.14.20",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "shower-mango",
+    "scope": null,
+    "escapedName": "shower-mango",
+    "name": "shower-mango",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/shower-mango/-/shower-mango-3.1.0.tgz",
+  "_shasum": "6f05dc36bccb4a5701fb36f4e61d89c593244212",
+  "_shrinkwrap": null,
+  "_spec": "shower-mango",
+  "_where": "/home/lieroz",
+  "author": {
+    "name": "Gabor Csardi"
+  },
+  "bugs": {
+    "url": "http://github.com/mangothecat/shower-mango/issues"
+  },
+  "dependencies": {},
+  "description": "Mango theme for Shower HTML presentation engine",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-header": "^1.8.2",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.1",
+    "postcss-csso": "^1.1.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6f05dc36bccb4a5701fb36f4e61d89c593244212",
+    "tarball": "https://registry.npmjs.org/shower-mango/-/shower-mango-3.1.0.tgz"
+  },
+  "files": [
+    "docs/**",
+    "fonts/**",
+    "images/**",
+    "pictures/**",
+    "styles/*.css",
+    "index.html",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "gitHead": "19f499bf8d6eee0aea33b78c861bcfa9e4cca682",
+  "homepage": "https://github.com/mangothecat/shower-mango",
+  "keywords": [
+    "shower",
+    "presentation",
+    "mango solutions",
+    "theme"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "gaborcsardi",
+      "email": "csardi.gabor@gmail.com"
+    }
+  ],
+  "name": "shower-mango",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mangothecat/shower-mango.git"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "prepublish": "npm run styles",
+    "styles": "gulp styles"
+  },
+  "version": "3.1.0"
+}
